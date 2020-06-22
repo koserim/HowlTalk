@@ -1,0 +1,6 @@
+framework module Pods_HowlTalk_HowlTalkUITests {
+  umbrella header "Pods-HowlTalk-HowlTalkUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

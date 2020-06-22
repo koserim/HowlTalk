@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12CF1E6E24A0F5F30045F58B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF1E6D24A0F5F30045F58B /* AppDelegate.swift */; };
+		12CF1E7024A0F5F30045F58B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF1E6F24A0F5F30045F58B /* SceneDelegate.swift */; };
+		12CF1E7224A0F5F30045F58B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF1E7124A0F5F30045F58B /* ViewController.swift */; };
+		12CF1E7524A0F5F30045F58B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CF1E7324A0F5F30045F58B /* Main.storyboard */; };
+		12CF1E7724A0F5F80045F58B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12CF1E7624A0F5F80045F58B /* Assets.xcassets */; };
+		12CF1E7A24A0F5F80045F58B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CF1E7824A0F5F80045F58B /* LaunchScreen.storyboard */; };
+		12CF1E8524A0F5F90045F58B /* HowlTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF1E8424A0F5F90045F58B /* HowlTalkTests.swift */; };
+		12CF1E9024A0F5F90045F58B /* HowlTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF1E8F24A0F5F90045F58B /* HowlTalkUITests.swift */; };
+		12CF1E9E24A0F6E40045F58B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12CF1E9D24A0F6E40045F58B /* GoogleService-Info.plist */; };
+		12CF1EA024A0FAE10045F58B /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12CF1E9F24A0FAE10045F58B /* RemoteConfigDefaults.plist */; };
+		25FA6DB78B9827B72E1A24E8 /* Pods_HowlTalk_HowlTalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB779152A925148C048DD14 /* Pods_HowlTalk_HowlTalkUITests.framework */; };
+		5A90421A0037F347623146AF /* Pods_HowlTalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C43302C2B273BD24646795F /* Pods_HowlTalkTests.framework */; };
+		D897EEEA4B5CF56022BB7873 /* Pods_HowlTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E43AF9DD84586EF9ACC324 /* Pods_HowlTalk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12CF1E8124A0F5F90045F58B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12CF1E6224A0F5F30045F58B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12CF1E6924A0F5F30045F58B;
+			remoteInfo = HowlTalk;
+		};
+		12CF1E8C24A0F5F90045F58B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12CF1E6224A0F5F30045F58B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12CF1E6924A0F5F30045F58B;
+			remoteInfo = HowlTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E43AF9DD84586EF9ACC324 /* Pods_HowlTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C43302C2B273BD24646795F /* Pods_HowlTalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlTalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12CF1E6A24A0F5F30045F58B /* HowlTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowlTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12CF1E6D24A0F5F30045F58B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12CF1E6F24A0F5F30045F58B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		12CF1E7124A0F5F30045F58B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12CF1E7424A0F5F30045F58B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12CF1E7624A0F5F80045F58B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12CF1E7924A0F5F80045F58B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12CF1E7B24A0F5F80045F58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12CF1E8024A0F5F90045F58B /* HowlTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowlTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12CF1E8424A0F5F90045F58B /* HowlTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowlTalkTests.swift; sourceTree = "<group>"; };
+		12CF1E8624A0F5F90045F58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12CF1E8B24A0F5F90045F58B /* HowlTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowlTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12CF1E8F24A0F5F90045F58B /* HowlTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowlTalkUITests.swift; sourceTree = "<group>"; };
+		12CF1E9124A0F5F90045F58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12CF1E9D24A0F6E40045F58B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		12CF1E9F24A0FAE10045F58B /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
+		6B6B07AA8CBD38F3395AB236 /* Pods-HowlTalk-HowlTalkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlTalk-HowlTalkUITests.release.xcconfig"; path = "Target Support Files/Pods-HowlTalk-HowlTalkUITests/Pods-HowlTalk-HowlTalkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		825CBC9F2BE6E4EC89D5B97B /* Pods-HowlTalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlTalkTests.release.xcconfig"; path = "Target Support Files/Pods-HowlTalkTests/Pods-HowlTalkTests.release.xcconfig"; sourceTree = "<group>"; };
+		982BA4A630E20275209DC3BD /* Pods-HowlTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlTalk.release.xcconfig"; path = "Target Support Files/Pods-HowlTalk/Pods-HowlTalk.release.xcconfig"; sourceTree = "<group>"; };
+		A6F538CAC6FF38B0C5B18A44 /* Pods-HowlTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlTalk.debug.xcconfig"; path = "Target Support Files/Pods-HowlTalk/Pods-HowlTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		E38444548520F7961F07A487 /* Pods-HowlTalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlTalkTests.debug.xcconfig"; path = "Target Support Files/Pods-HowlTalkTests/Pods-HowlTalkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F42E1F2DCB8F7AD04A67FFDA /* Pods-HowlTalk-HowlTalkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlTalk-HowlTalkUITests.debug.xcconfig"; path = "Target Support Files/Pods-HowlTalk-HowlTalkUITests/Pods-HowlTalk-HowlTalkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAB779152A925148C048DD14 /* Pods_HowlTalk_HowlTalkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlTalk_HowlTalkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12CF1E6724A0F5F30045F58B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D897EEEA4B5CF56022BB7873 /* Pods_HowlTalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12CF1E7D24A0F5F90045F58B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A90421A0037F347623146AF /* Pods_HowlTalkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12CF1E8824A0F5F90045F58B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FA6DB78B9827B72E1A24E8 /* Pods_HowlTalk_HowlTalkUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12CF1E6124A0F5F30045F58B = {
+			isa = PBXGroup;
+			children = (
+				12CF1E6C24A0F5F30045F58B /* HowlTalk */,
+				12CF1E8324A0F5F90045F58B /* HowlTalkTests */,
+				12CF1E8E24A0F5F90045F58B /* HowlTalkUITests */,
+				12CF1E6B24A0F5F30045F58B /* Products */,
+				6227D6C2B1D6ACDC8231BC8D /* Pods */,
+				321D9CFC122DD5D145AA0BF0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		12CF1E6B24A0F5F30045F58B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12CF1E6A24A0F5F30045F58B /* HowlTalk.app */,
+				12CF1E8024A0F5F90045F58B /* HowlTalkTests.xctest */,
+				12CF1E8B24A0F5F90045F58B /* HowlTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12CF1E6C24A0F5F30045F58B /* HowlTalk */ = {
+			isa = PBXGroup;
+			children = (
+				12CF1E9D24A0F6E40045F58B /* GoogleService-Info.plist */,
+				12CF1E6D24A0F5F30045F58B /* AppDelegate.swift */,
+				12CF1E6F24A0F5F30045F58B /* SceneDelegate.swift */,
+				12CF1E7124A0F5F30045F58B /* ViewController.swift */,
+				12CF1E7324A0F5F30045F58B /* Main.storyboard */,
+				12CF1E7624A0F5F80045F58B /* Assets.xcassets */,
+				12CF1E7824A0F5F80045F58B /* LaunchScreen.storyboard */,
+				12CF1E7B24A0F5F80045F58B /* Info.plist */,
+				12CF1E9F24A0FAE10045F58B /* RemoteConfigDefaults.plist */,
+			);
+			path = HowlTalk;
+			sourceTree = "<group>";
+		};
+		12CF1E8324A0F5F90045F58B /* HowlTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				12CF1E8424A0F5F90045F58B /* HowlTalkTests.swift */,
+				12CF1E8624A0F5F90045F58B /* Info.plist */,
+			);
+			path = HowlTalkTests;
+			sourceTree = "<group>";
+		};
+		12CF1E8E24A0F5F90045F58B /* HowlTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12CF1E8F24A0F5F90045F58B /* HowlTalkUITests.swift */,
+				12CF1E9124A0F5F90045F58B /* Info.plist */,
+			);
+			path = HowlTalkUITests;
+			sourceTree = "<group>";
+		};
+		321D9CFC122DD5D145AA0BF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02E43AF9DD84586EF9ACC324 /* Pods_HowlTalk.framework */,
+				FAB779152A925148C048DD14 /* Pods_HowlTalk_HowlTalkUITests.framework */,
+				0C43302C2B273BD24646795F /* Pods_HowlTalkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6227D6C2B1D6ACDC8231BC8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6F538CAC6FF38B0C5B18A44 /* Pods-HowlTalk.debug.xcconfig */,
+				982BA4A630E20275209DC3BD /* Pods-HowlTalk.release.xcconfig */,
+				F42E1F2DCB8F7AD04A67FFDA /* Pods-HowlTalk-HowlTalkUITests.debug.xcconfig */,
+				6B6B07AA8CBD38F3395AB236 /* Pods-HowlTalk-HowlTalkUITests.release.xcconfig */,
+				E38444548520F7961F07A487 /* Pods-HowlTalkTests.debug.xcconfig */,
+				825CBC9F2BE6E4EC89D5B97B /* Pods-HowlTalkTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12CF1E6924A0F5F30045F58B /* HowlTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12CF1E9424A0F5F90045F58B /* Build configuration list for PBXNativeTarget "HowlTalk" */;
+			buildPhases = (
+				43E21776684A159E10D55CF0 /* [CP] Check Pods Manifest.lock */,
+				12CF1E6624A0F5F30045F58B /* Sources */,
+				12CF1E6724A0F5F30045F58B /* Frameworks */,
+				12CF1E6824A0F5F30045F58B /* Resources */,
+				B2F9013B1913AB926F4BCAB1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HowlTalk;
+			productName = HowlTalk;
+			productReference = 12CF1E6A24A0F5F30045F58B /* HowlTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12CF1E7F24A0F5F90045F58B /* HowlTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12CF1E9724A0F5F90045F58B /* Build configuration list for PBXNativeTarget "HowlTalkTests" */;
+			buildPhases = (
+				E475A3AFAC39EE1D31AA0C19 /* [CP] Check Pods Manifest.lock */,
+				12CF1E7C24A0F5F90045F58B /* Sources */,
+				12CF1E7D24A0F5F90045F58B /* Frameworks */,
+				12CF1E7E24A0F5F90045F58B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12CF1E8224A0F5F90045F58B /* PBXTargetDependency */,
+			);
+			name = HowlTalkTests;
+			productName = HowlTalkTests;
+			productReference = 12CF1E8024A0F5F90045F58B /* HowlTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12CF1E8A24A0F5F90045F58B /* HowlTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12CF1E9A24A0F5F90045F58B /* Build configuration list for PBXNativeTarget "HowlTalkUITests" */;
+			buildPhases = (
+				3A2D9661D4E34EB65783D640 /* [CP] Check Pods Manifest.lock */,
+				12CF1E8724A0F5F90045F58B /* Sources */,
+				12CF1E8824A0F5F90045F58B /* Frameworks */,
+				12CF1E8924A0F5F90045F58B /* Resources */,
+				DFC7B0744C2B58E4BC69B17B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12CF1E8D24A0F5F90045F58B /* PBXTargetDependency */,
+			);
+			name = HowlTalkUITests;
+			productName = HowlTalkUITests;
+			productReference = 12CF1E8B24A0F5F90045F58B /* HowlTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12CF1E6224A0F5F30045F58B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = serim;
+				TargetAttributes = {
+					12CF1E6924A0F5F30045F58B = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					12CF1E7F24A0F5F90045F58B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 12CF1E6924A0F5F30045F58B;
+					};
+					12CF1E8A24A0F5F90045F58B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 12CF1E6924A0F5F30045F58B;
+					};
+				};
+			};
+			buildConfigurationList = 12CF1E6524A0F5F30045F58B /* Build configuration list for PBXProject "HowlTalk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12CF1E6124A0F5F30045F58B;
+			productRefGroup = 12CF1E6B24A0F5F30045F58B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12CF1E6924A0F5F30045F58B /* HowlTalk */,
+				12CF1E7F24A0F5F90045F58B /* HowlTalkTests */,
+				12CF1E8A24A0F5F90045F58B /* HowlTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12CF1E6824A0F5F30045F58B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CF1E7A24A0F5F80045F58B /* LaunchScreen.storyboard in Resources */,
+				12CF1EA024A0FAE10045F58B /* RemoteConfigDefaults.plist in Resources */,
+				12CF1E9E24A0F6E40045F58B /* GoogleService-Info.plist in Resources */,
+				12CF1E7724A0F5F80045F58B /* Assets.xcassets in Resources */,
+				12CF1E7524A0F5F30045F58B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12CF1E7E24A0F5F90045F58B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12CF1E8924A0F5F90045F58B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A2D9661D4E34EB65783D640 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlTalk-HowlTalkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43E21776684A159E10D55CF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2F9013B1913AB926F4BCAB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HowlTalk/Pods-HowlTalk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HowlTalk/Pods-HowlTalk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HowlTalk/Pods-HowlTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFC7B0744C2B58E4BC69B17B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HowlTalk-HowlTalkUITests/Pods-HowlTalk-HowlTalkUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HowlTalk-HowlTalkUITests/Pods-HowlTalk-HowlTalkUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HowlTalk-HowlTalkUITests/Pods-HowlTalk-HowlTalkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E475A3AFAC39EE1D31AA0C19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlTalkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12CF1E6624A0F5F30045F58B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CF1E7224A0F5F30045F58B /* ViewController.swift in Sources */,
+				12CF1E6E24A0F5F30045F58B /* AppDelegate.swift in Sources */,
+				12CF1E7024A0F5F30045F58B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12CF1E7C24A0F5F90045F58B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CF1E8524A0F5F90045F58B /* HowlTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12CF1E8724A0F5F90045F58B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CF1E9024A0F5F90045F58B /* HowlTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12CF1E8224A0F5F90045F58B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12CF1E6924A0F5F30045F58B /* HowlTalk */;
+			targetProxy = 12CF1E8124A0F5F90045F58B /* PBXContainerItemProxy */;
+		};
+		12CF1E8D24A0F5F90045F58B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12CF1E6924A0F5F30045F58B /* HowlTalk */;
+			targetProxy = 12CF1E8C24A0F5F90045F58B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12CF1E7324A0F5F30045F58B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12CF1E7424A0F5F30045F58B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12CF1E7824A0F5F80045F58B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12CF1E7924A0F5F80045F58B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12CF1E9224A0F5F90045F58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12CF1E9324A0F5F90045F58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12CF1E9524A0F5F90045F58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6F538CAC6FF38B0C5B18A44 /* Pods-HowlTalk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowlTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Example.HowlTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12CF1E9624A0F5F90045F58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 982BA4A630E20275209DC3BD /* Pods-HowlTalk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowlTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Example.HowlTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		12CF1E9824A0F5F90045F58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E38444548520F7961F07A487 /* Pods-HowlTalkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowlTalkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Example.HowlTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowlTalk.app/HowlTalk";
+			};
+			name = Debug;
+		};
+		12CF1E9924A0F5F90045F58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 825CBC9F2BE6E4EC89D5B97B /* Pods-HowlTalkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowlTalkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Example.HowlTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowlTalk.app/HowlTalk";
+			};
+			name = Release;
+		};
+		12CF1E9B24A0F5F90045F58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F42E1F2DCB8F7AD04A67FFDA /* Pods-HowlTalk-HowlTalkUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowlTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Example.HowlTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HowlTalk;
+			};
+			name = Debug;
+		};
+		12CF1E9C24A0F5F90045F58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B6B07AA8CBD38F3395AB236 /* Pods-HowlTalk-HowlTalkUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowlTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Example.HowlTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HowlTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12CF1E6524A0F5F30045F58B /* Build configuration list for PBXProject "HowlTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12CF1E9224A0F5F90045F58B /* Debug */,
+				12CF1E9324A0F5F90045F58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12CF1E9424A0F5F90045F58B /* Build configuration list for PBXNativeTarget "HowlTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12CF1E9524A0F5F90045F58B /* Debug */,
+				12CF1E9624A0F5F90045F58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12CF1E9724A0F5F90045F58B /* Build configuration list for PBXNativeTarget "HowlTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12CF1E9824A0F5F90045F58B /* Debug */,
+				12CF1E9924A0F5F90045F58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12CF1E9A24A0F5F90045F58B /* Build configuration list for PBXNativeTarget "HowlTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12CF1E9B24A0F5F90045F58B /* Debug */,
+				12CF1E9C24A0F5F90045F58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12CF1E6224A0F5F30045F58B /* Project object */;
+}
