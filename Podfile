@@ -9,6 +9,9 @@ target 'HowlTalk' do
   pod 'SnapKit', '~> 5.0.0'
   pod 'Firebase/Core'
   pod 'Firebase/RemoteConfig'
+  pod 'TextFieldEffects'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'  
   target 'HowlTalkTests' do
     inherit! :search_paths
     # Pods for testing
