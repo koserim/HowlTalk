@@ -12,6 +12,9 @@ target 'HowlTalk' do
   pod 'TextFieldEffects'
   pod 'Firebase/Database'
   pod 'Firebase/Auth'  
+  pod 'Firebase/Storage'
+  pod 'ObjectMapper', '~> 3.5'
+  pod 'Kingfisher', '~> 5.14.1'
   target 'HowlTalkTests' do
     inherit! :search_paths
     # Pods for testing

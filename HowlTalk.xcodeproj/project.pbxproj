@@ -19,6 +19,12 @@
 		12CF1EA024A0FAE10045F58B /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12CF1E9F24A0FAE10045F58B /* RemoteConfigDefaults.plist */; };
 		12CF1EA224A1FA8F0045F58B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF1EA124A1FA8F0045F58B /* LoginViewController.swift */; };
 		12CF1EA424A20BA00045F58B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF1EA324A20BA00045F58B /* SignUpViewController.swift */; };
+		12CF1EA624A34A7F0045F58B /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF1EA524A34A7F0045F58B /* PeopleViewController.swift */; };
+		12CF1EA824A354350045F58B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF1EA724A354350045F58B /* UserModel.swift */; };
+		12CF1EAC24A362050045F58B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF1EAB24A362050045F58B /* ChatViewController.swift */; };
+		12CF1EAF24A497360045F58B /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF1EAE24A497360045F58B /* ChatModel.swift */; };
+		12FEC1F024B2FFBC00DA566E /* ChatRoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FEC1EF24B2FFBC00DA566E /* ChatRoomsViewController.swift */; };
+		12FEC1F224B4606900DA566E /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FEC1F124B4606900DA566E /* AccountViewController.swift */; };
 		25FA6DB78B9827B72E1A24E8 /* Pods_HowlTalk_HowlTalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB779152A925148C048DD14 /* Pods_HowlTalk_HowlTalkUITests.framework */; };
 		5A90421A0037F347623146AF /* Pods_HowlTalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C43302C2B273BD24646795F /* Pods_HowlTalkTests.framework */; };
 		D897EEEA4B5CF56022BB7873 /* Pods_HowlTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E43AF9DD84586EF9ACC324 /* Pods_HowlTalk.framework */; };
@@ -62,6 +68,12 @@
 		12CF1E9F24A0FAE10045F58B /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
 		12CF1EA124A1FA8F0045F58B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		12CF1EA324A20BA00045F58B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		12CF1EA524A34A7F0045F58B /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		12CF1EA724A354350045F58B /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		12CF1EAB24A362050045F58B /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		12CF1EAE24A497360045F58B /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		12FEC1EF24B2FFBC00DA566E /* ChatRoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomsViewController.swift; sourceTree = "<group>"; };
+		12FEC1F124B4606900DA566E /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		6B6B07AA8CBD38F3395AB236 /* Pods-HowlTalk-HowlTalkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlTalk-HowlTalkUITests.release.xcconfig"; path = "Target Support Files/Pods-HowlTalk-HowlTalkUITests/Pods-HowlTalk-HowlTalkUITests.release.xcconfig"; sourceTree = "<group>"; };
 		825CBC9F2BE6E4EC89D5B97B /* Pods-HowlTalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlTalkTests.release.xcconfig"; path = "Target Support Files/Pods-HowlTalkTests/Pods-HowlTalkTests.release.xcconfig"; sourceTree = "<group>"; };
 		982BA4A630E20275209DC3BD /* Pods-HowlTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlTalk.release.xcconfig"; path = "Target Support Files/Pods-HowlTalk/Pods-HowlTalk.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +136,8 @@
 		12CF1E6C24A0F5F30045F58B /* HowlTalk */ = {
 			isa = PBXGroup;
 			children = (
+				12FEC1EE24B2FF9000DA566E /* TabBar */,
+				12CF1EAD24A4971B0045F58B /* Model */,
 				12CF1E9D24A0F6E40045F58B /* GoogleService-Info.plist */,
 				12CF1E6D24A0F5F30045F58B /* AppDelegate.swift */,
 				12CF1E6F24A0F5F30045F58B /* SceneDelegate.swift */,
@@ -135,6 +149,7 @@
 				12CF1E9F24A0FAE10045F58B /* RemoteConfigDefaults.plist */,
 				12CF1EA124A1FA8F0045F58B /* LoginViewController.swift */,
 				12CF1EA324A20BA00045F58B /* SignUpViewController.swift */,
+				12CF1EAB24A362050045F58B /* ChatViewController.swift */,
 			);
 			path = HowlTalk;
 			sourceTree = "<group>";
@@ -155,6 +170,25 @@
 				12CF1E9124A0F5F90045F58B /* Info.plist */,
 			);
 			path = HowlTalkUITests;
+			sourceTree = "<group>";
+		};
+		12CF1EAD24A4971B0045F58B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12CF1EA724A354350045F58B /* UserModel.swift */,
+				12CF1EAE24A497360045F58B /* ChatModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		12FEC1EE24B2FF9000DA566E /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				12CF1EA524A34A7F0045F58B /* PeopleViewController.swift */,
+				12FEC1EF24B2FFBC00DA566E /* ChatRoomsViewController.swift */,
+				12FEC1F124B4606900DA566E /* AccountViewController.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 		321D9CFC122DD5D145AA0BF0 /* Frameworks */ = {
@@ -422,10 +456,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				12CF1EA224A1FA8F0045F58B /* LoginViewController.swift in Sources */,
+				12FEC1F024B2FFBC00DA566E /* ChatRoomsViewController.swift in Sources */,
+				12CF1EA824A354350045F58B /* UserModel.swift in Sources */,
+				12CF1EAC24A362050045F58B /* ChatViewController.swift in Sources */,
 				12CF1E7224A0F5F30045F58B /* ViewController.swift in Sources */,
 				12CF1E6E24A0F5F30045F58B /* AppDelegate.swift in Sources */,
+				12CF1EA624A34A7F0045F58B /* PeopleViewController.swift in Sources */,
 				12CF1E7024A0F5F30045F58B /* SceneDelegate.swift in Sources */,
 				12CF1EA424A20BA00045F58B /* SignUpViewController.swift in Sources */,
+				12CF1EAF24A497360045F58B /* ChatModel.swift in Sources */,
+				12FEC1F224B4606900DA566E /* AccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
