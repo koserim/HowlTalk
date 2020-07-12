@@ -15,6 +15,7 @@ target 'HowlTalk' do
   pod 'Firebase/Storage'
   pod 'ObjectMapper', '~> 3.5'
   pod 'Kingfisher', '~> 5.14.1'
+  pod 'BEMCheckBox'
   target 'HowlTalkTests' do
     inherit! :search_paths
     # Pods for testing

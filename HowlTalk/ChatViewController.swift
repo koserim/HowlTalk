@@ -146,7 +146,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
                 
                 if let chatRoomDic = item.value as? [String:AnyObject] {
                     let chatModel = ChatModel(JSON: chatRoomDic)
-                    if(chatModel?.users[self.destinationUid!] == true) {
+                    if(chatModel?.users[self.destinationUid!] == true && chatModel?.users.count == 2) {
                         self.chatRoomId = item.key // 방의 key가 들어감
                         self.sendButton.isEnabled = true
                         self.getDestinationInfo()
@@ -209,8 +209,12 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
                 self.comments.append(comment!)
             }
             let nsDic = readUserDic as NSDictionary
+            
+            if(self.comments.last?.readUsers.keys == nil) {
+                return
+            }
             // 마지막 대화를 내가 읽지 않았으면 서버에 보고
-            if (!(self.comments.last?.readUsers.keys.contains(self.uid!))!) {
+            if(!(self.comments.last?.readUsers.keys.contains(self.uid!))!) {
                 datasnapshot.ref.updateChildValues(nsDic as! [AnyHashable : Any]) { (err, ref) in
                     self.tableView.reloadData()
                     if self.comments.count > 0 {

@@ -48,6 +48,22 @@ class PeopleViewController: UIViewController, UITableViewDelegate, UITableViewDa
                 self.tableView.reloadData()
             }
         })
+        
+        var selectFriendButton = UIButton()
+        view.addSubview(selectFriendButton)
+        selectFriendButton.snp.makeConstraints { (make) in
+            make.bottom.equalTo(view).offset(-90)
+            make.right.equalTo(view).offset(-20)
+            make.width.height.equalTo(50)
+        }
+        selectFriendButton.backgroundColor = UIColor.black
+        selectFriendButton.addTarget(self, action: #selector(showSelectFriendController ), for: .touchUpInside)
+        selectFriendButton.layer.cornerRadius = 25
+        selectFriendButton.layer.masksToBounds = true
+    }
+    
+    @objc func showSelectFriendController() {
+        self.performSegue(withIdentifier: "SelectFriendSegue", sender: nil)
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
